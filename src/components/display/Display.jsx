@@ -16,7 +16,7 @@ const Display = ({ total, calculatedTip, people, handleResetBtn }) => {
             <p className="header">Tip Amount</p>
             <p className="unit">/person</p>
           </div>
-          <p className="display-amt">
+         <p className="display-amt">
             {currencyAmount(`${calculatedTip ? calculatedTip / people : "0"}`)}
           </p>
         </div>
